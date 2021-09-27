@@ -1,0 +1,39 @@
+baseurl: "https://form-and-structure.netlify.app"
+title: Form and Structure - Maps and Networks
+subtitle: Creations from Class of S1C1 FSP-2021-2022
+theme: hugo-creative-portfolio-theme
+languageCode: en-us
+disqusShortname: ''
+googleAnalytics: ''
+params:
+  copyright: '&copy;2021 SMI, MAHE'
+  description: Describe your website
+  email: you@yoursite.com
+  navlinks:
+    - home: yes
+      name: Home
+      url: portfolio/
+    - name: About
+      url: about/
+  sidebarAbout:
+    - We are the Class of Foundation 2021, Form and Structure (Maps and Networks) at Srishti Manipal Institute of Art, Design, and Technology
+    - We studied Geo-Spatial Data and Map-Making; Networks and Network Data Structures
+    - These are some of our Creative Works
+  social:
+    email: email@example.com
+    facebook: full page or profile url in facebook
+    github: full profile url in github
+    gitlab: full profile url in gitlab
+    googleplus: full profile url in googleplus
+    instagram: full profile url in instagram
+    linkedin: full profile url in linkedin
+    stackoverflow: full profile url in stackoverflow
+    twitter: full profile url in twitter
+    whatsapp: wa.me service link
+    youtube: full profile url in youtube
+  style: default
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

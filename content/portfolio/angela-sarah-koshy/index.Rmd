@@ -1,0 +1,38 @@
+---
+title: Angela Koshy
+author: Angela Koshy
+date: "27/Sept/2021"
+output:
+  html_document:
+    toc: no
+    df_print: paged
+  blogdown::html_page:
+    toc: no
+    fig_width: 5
+    fig_height: 5
+categories: Maps; Networks;Form and Structure;
+tags: R Markdown
+image: https://www.alice-in-wonderland.net/wp-content/uploads/12.jpg
+caption: ''
+preview: yes
+slug: []
+description: These are some of my best works from this course.
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+knitr::opts_chunk$set(fig.path = "", echo = FALSE, message = FALSE, warning = FALSE)
+library(tidyverse)
+library(palmerpenguins)
+library(osmplotr)
+library(osmdata)
+library(sf)
+library(tmap)
+library(tidygraph)
+library(graphlayouts)
+library(ggraph)
+
+```
+
+## Introduction
+
+Blah Blah Blah
